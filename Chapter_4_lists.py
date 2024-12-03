@@ -130,3 +130,43 @@ carsAll.reverse() #reverse list
 print(carsAll)
 
 #---------------------------------------------------------------------  
+
+print('Four score and seven ' + \
+'years ago...') #two lines print
+
+myList = ['listItem1',
+          'listitem2',      
+          'listitem3']
+
+print(myList)
+
+#8 MAGIC BALL GAME
+
+messages = ['It is certain',
+    'It is decidedly so',
+    'Yes definitely',
+    'Reply hazy try again',
+    'Ask again later',
+    'Concentrate and ask again',
+    'My reply is no',
+    'Outlook not so good',
+    'Very doubtful']
+
+print(random.choice(messages))
+print(messages[random.randint(0, len(messages) - 1)])
+
+name = 'kalatasql'
+
+for i in name :
+    print('* * * * * * * ' + i + ' * * * * * * *')
+
+message = 'Hello Python'
+
+newMessage = message[0:6] + 'kalatasql' #from first letter to first space in message variable and conncatenate
+
+print(newMessage)
+
+eggs = [1, 2, 3]
+eggs = [4, 5]
+
+print(eggs)
